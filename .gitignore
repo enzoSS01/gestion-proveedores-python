@@ -1,0 +1,10 @@
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Archivos de configuración de Geany o carpetas ocultas de Windows
+.directory
+Thumbs.db
+
+# Archivo de variables de entorno (donde pondremos la contraseña después)
+.env
