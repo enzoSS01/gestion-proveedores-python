@@ -21,8 +21,8 @@ def pedir_contrasena_con_asteriscos(prompt="🔑 Contraseña: "):
 
 def login():
     usuarios = {
-        "admin": {"clave": "PONER_CONTRASEÑA_ACA", "rol": "admin"},
-        "operador": {"clave": "PONER_CONTRASEÑA_ACA", "rol": "consulta"}
+        "admin": {"clave": "PASSWORD", "rol": "admin"},
+        "operador": {"clave": "PASSWORD", "rol": "consulta"}
     }
 # Por seguridad, la contraseña se maneja localmente
 
