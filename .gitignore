@@ -6,5 +6,5 @@ __pycache__/
 .directory
 Thumbs.db
 
-# Archivo de variables de entorno (donde pondremos la contraseña después)
+# Archivo de variables de entorno (donde ponemos la contraseña después)
 .env

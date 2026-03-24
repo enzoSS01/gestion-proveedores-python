@@ -7,16 +7,17 @@ centralizar la información operativa y facilitar la toma de decisiones basada e
 ### ✨ Funcionalidades
 * **Gestión de Proveedores:** Alta, baja y modificación de datos de contacto.
 * **Control de Stock Dinámico:** Seguimiento en tiempo real de productos y existencias.
+* **Arquitectura Modular:** Código organizado en módulos específicos para facilitar la escalabilidad.
 * **Generación de Reportes:** Creación automática de comprobantes en formato **PDF** para registros administrativos.
 ![Ejemplo de Reporte PDF](img/ipc_2.0.png)
 
-* **Arquitectura Modular:** Código organizado en módulos específicos para facilitar la escalabilidad.
 
 ### 🛠️ Tecnologías y Herramientas
 * **Lenguaje:** Python 3.12
 * **Librerías principales:** 
 	* `mariadb`: Conector oficial para integración de BD.
     * `reportlab`: Generación y diseño de documentos PDF.
+    * `python-dotenv`: Manejo seguro de variables de entorno.
 * **Base de Datos:** MariaDB (Gestionada con HeidiSQL)
 * **Diseño de Base de Datos:**
 ![Estructura SQL](img/proveedores_sql.png)
@@ -30,7 +31,7 @@ primarias y restricciones NOT NULL en campos críticos para asegurar la calidad 
    `git clone https:github.com/enzoSS01/gestion-proveedores-python`
 
 2. Instalar dependencias:
-   `pip install mariadb reportlab`
+   `pip install mariadb reportlab python-dotenv`
 
 3. Configuración de Base de Datos:
    * Importar el archivo database_setup.sql en HeidiSQL para crear automáticamente las tablas y cargar los datos iniciales.
