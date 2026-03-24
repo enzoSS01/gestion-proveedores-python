@@ -33,7 +33,7 @@ primarias y restricciones NOT NULL en campos críticos para asegurar la calidad 
    `pip install mariadb reportlab`
 
 3. Configuración de Base de Datos:
-   * Importar el script SQL adjunto en HeidiSQL.
+   * Importar el archivo database_setup.sql en HeidiSQL para crear automáticamente las tablas y cargar los datos iniciales.
    * Configurar las credenciales en el archivo correspondiente (se recomienda el uso de variables de entorno).
    
 ### 🖼️ Vista Previa del Sistema
