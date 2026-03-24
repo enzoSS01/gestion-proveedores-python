@@ -14,11 +14,11 @@ centralizar la información operativa y facilitar la toma de decisiones basada e
 
 ### 🛠️ Tecnologías y Herramientas
 * **Lenguaje:** Python 3.12
-* **Base de Datos:** MariaDB (Gestionada con HeidiSQL)
 * **Librerías principales:** 
 	* `mariadb`: Conector oficial para integración de BD.
     * `reportlab`: Generación y diseño de documentos PDF.
-**Diseño de Base de Datos:**
+* **Base de Datos:** MariaDB (Gestionada con HeidiSQL)
+* **Diseño de Base de Datos:**
 ![Estructura SQL](img/proveedores_sql.png)
 
 Se implementó un esquema relacional con integridad referencial, utilizando AUTO_INCREMENT para claves 
@@ -39,6 +39,7 @@ primarias y restricciones NOT NULL en campos críticos para asegurar la calidad 
 ### 🖼️ Vista Previa del Sistema
 
 **Menú Principal e Interfaz:**
+
 ![Menú Principal](img/menu_principal.png)
 
 **Gestión de Datos y Reportes:**
