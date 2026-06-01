@@ -28,7 +28,9 @@ centralizar la información operativa y facilitar la toma de decisiones basada e
     * `python-dotenv`: Manejo seguro de variables de entorno.
 * **Base de Datos:** MariaDB (Gestionada con HeidiSQL)
 * **Diseño de Base de Datos:**
-![Estructura SQL](img/proveedores_sql.png)
+<p align="center">
+  <img src="img/proveedores_sql.png" width="60%">
+</p>
 
 Se implementó un esquema relacional con integridad referencial, utilizando AUTO_INCREMENT para claves 
 primarias y restricciones NOT NULL en campos críticos para asegurar la calidad del dato.   
@@ -49,9 +51,13 @@ primarias y restricciones NOT NULL en campos críticos para asegurar la calidad 
 
 **Menú Principal e Interfaz:**
 
-![Menú Principal](img/menu_principal.png)
+<p align="center">
+  <img src="img/menu_principal.png" width="60%">
+</p>
 
 **Gestión de Datos y Reportes:**
-![Listado de Productos](img/lista_productos.png)
+<p align="center">
+  <img src="img/lista_productos.png" width="60%">
+</p>
 
 *(Captura del sistema interactuando con la base de datos MariaDB)*
